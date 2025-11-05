@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/harsh-909/myPortfolio/static/css/main.11b26201.css",
-    "main.js": "/harsh-909/myPortfolio/static/js/main.989035ea.js",
+    "main.js": "/harsh-909/myPortfolio/static/js/main.48245e00.js",
     "static/js/453.1407b060.chunk.js": "/harsh-909/myPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/PaintingBoy.png": "/harsh-909/myPortfolio/static/media/PaintingBoy.a3b102ef828ec7a08207.png",
     "static/media/nawabHotel.png": "/harsh-909/myPortfolio/static/media/nawabHotel.bdd27291a8c74b472f80.png",
@@ -51,11 +51,11 @@
     "static/media/jira.svg": "/harsh-909/myPortfolio/static/media/jira.37df73611a3a0e5a4edb8d737e363539.svg",
     "static/media/testng.svg": "/harsh-909/myPortfolio/static/media/testng.7df2cd5d43036fbbfea0e454163349a9.svg",
     "main.11b26201.css.map": "/harsh-909/myPortfolio/static/css/main.11b26201.css.map",
-    "main.989035ea.js.map": "/harsh-909/myPortfolio/static/js/main.989035ea.js.map",
+    "main.48245e00.js.map": "/harsh-909/myPortfolio/static/js/main.48245e00.js.map",
     "453.1407b060.chunk.js.map": "/harsh-909/myPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11b26201.css",
-    "static/js/main.989035ea.js"
+    "static/js/main.48245e00.js"
   ]
 }
