@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  /* Use CSS variable from vars.css so the preferred font can be configured in one place */
+  font-family: var(--font-sans, 'Inter'), -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('./assets/bgnew.jpg'); Subtle matrix code background
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  scroll-behavior: smooth; */
+  background: #0D0D0D;
+
+
+  /* cursor: url('./assets/custom_cursor.png'),auto; */
+}
+
+
+.shadoweffect1{
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.scalebigger {
+  /* transform: scale(1.1);
+  transition: transform 200ms ease-in-out; */
+  background-color: antiquewhite;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.video-bg {
+  filter: brightness(50%); /* Darkens the video */
+}
+
+.animate-text-from-left {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s ease, transform 1s ease;
+}
+
+.animate-text-from-left.visible {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+
+.animate-text-from-right{
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.5s ease, transform 1s ease;
+}
+
+.animate-text-from-right.visible {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.tab-title {
+  display: block;
+  background-color: rgb(251 146 60);
+  color: white;
+  font-weight: 700;
+  /* Use Inter for a cleaner, professional tab title instead of decorative Playpen */
+  font-family: 'Inter', sans-serif;
+  padding: 10px 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.line{
+  height: 2px;
+  display: block;
+  background-color: rgb(251 146 60);
+  width: 33vw;
+}
+
+.popupanimation{
+  width: 100%;
+  height: 100%; 
+  transform: scale(0);
+  opacity: 0; 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+.popupanimation.play {
+  transform: scale(1); 
+  opacity: 1; 
+}
+
+
+.tech-details {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 1s linear, padding 1s linear, opacity 1s linear;
+}
+
+.tech-details.visible {
+  height: auto; /* Adjust to fit the content */
+  padding: 10px; /* Or the padding you want */
+  opacity: 1;
+}
+
+.active {
+  --tw-text-opacity: 1;
+  color: rgb(251 146 60 / var(--tw-text-opacity));
+  text-decoration: underline; /* Add underline or any other styles */
+}
